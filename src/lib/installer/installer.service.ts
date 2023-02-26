@@ -1,4 +1,4 @@
-import { HStreamService } from "@solenopsys/lib-hyperstreams";
+import { HStreamService } from "@solenopsys/fl-hyperstreams";
 import { Injectable } from "@angular/core";
 
 import { firstValueFrom, map } from "rxjs";

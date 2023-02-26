@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/sc-fl-installer",
+  "name": "@solenopsys/fl-installer",
   "version": "0.9.1",
   "scripts": {
     "test": "node index.js",
