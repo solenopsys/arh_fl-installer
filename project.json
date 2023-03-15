@@ -1,12 +1,15 @@
 {
   "name": "fl-installer",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
   "sourceRoot": "packages/data/fl-installer/src",
   "prefix": "sc",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/data/fl-installer"],
+      "outputs": [
+        "coverage/packages/data/fl-installer"
+      ],
       "options": {
         "jestConfig": "packages/data/fl-installer/jest.config.ts",
         "passWithNoTests": true
