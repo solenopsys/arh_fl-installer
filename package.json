@@ -1,8 +1,11 @@
 {
   "name": "@solenopsys/fl-installer",
-  "version": "0.9.1",
+  "version": "0.1.0",
+  "peerDependencies": {
+    "@solenopsys/fl-hyperstreams": "^0.1.0",
+    "protobufjs": "^7.2.3"
+  },
   "scripts": {
-    "test": "node index.js",
-    "build": "etsc -p tsconfig.lib.json"
+    "build": "ng-packagr -p ng-package.json -c ../../../../tsconfig.base.json"
   }
 }

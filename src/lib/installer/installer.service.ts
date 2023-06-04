@@ -20,7 +20,7 @@ export class HelmInstallerService {
   constructor(private hss: HStreamService) {
   }
 
-  private serviceName = "richteri-hsm-installer";
+  private serviceName = "hsm-installer";
 
   getCharts(filter: string, reload: boolean): Promise<ChartsResponse> {
     const r: GetChartsRequest = { filter: filter, reload: reload };

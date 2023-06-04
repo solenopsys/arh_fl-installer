@@ -1,7 +1,8 @@
 import { Action, Selector, State, StateContext } from "@ngxs/store";
 import { Injectable } from "@angular/core";
 import { append, patch, removeItem } from "@ngxs/store/operators";
-import { HelmInstallerService } from "..";
+import {HelmInstallerService} from "./installer/installer.service";
+
 
 export class ChartInstallation {
   digest!: string;
