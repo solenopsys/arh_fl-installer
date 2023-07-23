@@ -6,6 +6,6 @@
     "protobufjs": "^7.2.3"
   },
   "scripts": {
-    "build": "xs-pack"
+    "build": "ng-packagr -p xs-package.json -c ../../../../tsconfig.packages.json"
   }
 }
