@@ -3,29 +3,29 @@ import * as _m0 from "protobufjs/minimal";
 
 export const protobufPackage = "";
 
-export interface OperationStatus {
+export type OperationStatus ={
   status: string;
 }
 
-export interface Chart {
+export type Chart = {
   name: string;
   repository: string;
   version: string;
   digest: string;
 }
 
-export interface GetChartsRequest {
+export type GetChartsRequest = {
 }
 
-export interface ChartsResponse {
+export type ChartsResponse = {
   charts: Chart[];
 }
 
-export interface InstallChartRequest {
+export type InstallChartRequest = {
   chart: Chart | undefined;
 }
 
-export interface UninstallChartRequest {
+export type UninstallChartRequest = {
   digest: string;
 }
 
